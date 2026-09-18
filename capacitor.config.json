@@ -1,0 +1,17 @@
+{
+  "appId": "com.base6a668cfc7ec14f6aff013cfe.app",
+  "appName": "T90",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "ios": {
+    "contentInset": "always",
+    "limitsNavigationsToAppBoundDomains": false,
+    "preferredContentMode": "mobile"
+  },
+  "plugins": {
+    "StoreKit": {},
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}
